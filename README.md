@@ -16,33 +16,8 @@
 
 ### Images or Demo
 video explaination will be there soon
-<<<<<<< HEAD
-
-### Images or Demo
-
-#### Web View
-
-<div style="display: flex; overflow-x: auto; background-color: black ">
-  <img src="screenshots/ss-1.jpg" alt="Web View 1" width="300" style="margin-right: 30px; border: black">
-  <img src="screenshots/ss-2.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
-  <img src="screenshots/ss-3.jpg" alt="Web View 1" width="300" style="margin-right: 30px;">
-  <img src="screenshots/ss-4.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
-  <img src="screenshots/ss-5.jpg" alt="Web View 1" width="300" style="margin-right: 30px;">
-  <img src="screenshots/ss-6.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
-  <img src="screenshots/ss-7.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
-  <img src="screenshots/ss-8.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
-  <img src="screenshots/ss-9.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
-</div>
-
-
-#### Desktop View
-
-
-
-=======
 ## Images or Demo
 ![brand-asset-profile-picture](https://github.com/user-attachments/assets/f2c11c88-97a1-43c0-95a1-30ec8476fdc9)
->>>>>>> 55e0bac8e8c0e1083417e4788fa4a9cb04a9157e
 
 
 ## Table of Contents
@@ -51,9 +26,7 @@ video explaination will be there soon
   - [Description](#description)
   - [PS: The backend was deployed using Render, so there is more than an expected delay. Apologies for the inconvenience!](#ps-the-backend-was-deployed-using-render-so-there-is-more-than-an-expected-delay-apologies-for-the-inconvenience)
     - [Images or Demo](#images-or-demo)
-    - [Images or Demo](#images-or-demo-1)
-      - [Web View](#web-view)
-      - [Desktop View](#desktop-view)
+  - [Images or Demo](#images-or-demo-1)
   - [Table of Contents](#table-of-contents)
     - [Tech Stack](#tech-stack)
       - [Frontend](#frontend)
