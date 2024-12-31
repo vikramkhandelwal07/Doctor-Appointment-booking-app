@@ -54,9 +54,10 @@
 
 <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px; background-color: gray;">
 
-  <img src="screenshots/ss-1.jpg" alt="mobile view 1" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-1.jpg" alt="mobile view 1" width="300" 
+  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-2.jpg" alt="mobile view 2" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-2.jpg" alt="mobile view 2" width="300"  style="border-radius: 8px;">
 
   <img src="screenshots/ss-3.jpg" alt="mobile view 3" width="300"  style="border-radius: 8px;">
 
