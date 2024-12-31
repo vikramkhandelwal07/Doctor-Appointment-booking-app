@@ -1,15 +1,55 @@
-# Prescripto - Doctor Appointment-Booking-System
+# Doctor Appointment-Booking-System
 
 ## Description
 
 **Prescripto** is a comprehensive Hospital Management System built on the MERN stack to enhance hospital operations. This system includes features such as secure user authentication, efficient appointment scheduling, patient record management, and real-time communication between doctors and patients. It provides a scalable and user-friendly platform to streamline healthcare workflows and improve the hospital experience.
 
+## PS: The backend was deployed using Render, so there is more than an expected delay. Apologies for the inconvenience!
+**Live Link**
+
+  **backend** - https://doctor-appointment-booking-app-backend-1wxp.onrender.com
+  
+  **frontend** - https://doctor-appointment-booking-app-frontend-n8gi.onrender.com
+  
+  **admin** - https://doctor-appointment-booking-app-admin.onrender.com
+
+
+### Images or Demo
+video explaination will be there soon
+
+### Images or Demo
+
+#### Web View
+
+<div style="display: flex; overflow-x: auto; background-color: black ">
+  <img src="screenshots/ss-1.jpg" alt="Web View 1" width="300" style="margin-right: 30px; border: black">
+  <img src="screenshots/ss-2.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-3.jpg" alt="Web View 1" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-4.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-5.jpg" alt="Web View 1" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-6.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-7.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-8.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-9.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+</div>
+
+
+#### Desktop View
+
+
+
+
+
 ## Table of Contents
 
-- [Prescripto - Doctor Appointment-Booking-System](#prescripto---doctor-appointment-booking-system)
+- [Doctor Appointment-Booking-System](#doctor-appointment-booking-system)
   - [Description](#description)
-  - [Table of Contents](#table-of-contents)
+  - [PS: The backend was deployed using Render, so there is more than an expected delay. Apologies for the inconvenience!](#ps-the-backend-was-deployed-using-render-so-there-is-more-than-an-expected-delay-apologies-for-the-inconvenience)
     - [Images or Demo](#images-or-demo)
+    - [Images or Demo](#images-or-demo-1)
+      - [Web View](#web-view)
+      - [Desktop View](#desktop-view)
+  - [Table of Contents](#table-of-contents)
     - [Tech Stack](#tech-stack)
       - [Frontend](#frontend)
       - [Backend](#backend)
@@ -22,16 +62,16 @@
     - [Installation Instructions](#installation-instructions)
       - [Prerequisites](#prerequisites)
       - [Installation](#installation)
-    - [API Documentation](#api-documentation)
-      - [User Routes](#user-routes)
-      - [Doctor Routes](#doctor-routes)
-      - [Admin Routes](#admin-routes)
+- [API Documentation](#api-documentation)
+  - [User Routes](#user-routes)
+  - [Doctor Routes](#doctor-routes)
+  - [Admin Routes](#admin-routes)
     - [Deployment](#deployment)
 
 ---
 
-### Images or Demo
-This is the images or demo section.
+
+
 
 ### Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=js,react,nodejs,express,vercel,mongodb,tailwind,html,css)](https://skillicons.dev)
@@ -152,49 +192,54 @@ Access the admin panel at `http://localhost:5174`
 Access the backend API at `http://localhost:4000`
 Access the frontend application at `http://localhost:5173`
 
-### API Documentation
+# API Documentation
 
-#### User Routes
-- **POST /api/user/register**: Register a new user.
-- **POST /api/user/login**: Login a user.
-- **GET /api/user/get-profile**: Get user profile data (requires authentication).
-- **POST /api/user/update-profile**: Update user profile data (requires authentication).
-- **POST /api/user/book-appointment**: Book an appointment (requires authentication).
-- **GET /api/user/appointments**: Get user appointments (requires authentication).
-- **POST /api/user/cancel-appointment**: Cancel an appointment (requires authentication).
-- **POST /api/user/payment-razorpay**: Make payment for an appointment using Razorpay (requires authentication).
-- **POST /api/user/verifyRazorpay**: Verify Razorpay payment (requires authentication).
-- **POST /api/user/payment-stripe**: Make payment for an appointment using Stripe (requires authentication).
-- **POST /api/user/verifyStripe**: Verify Stripe payment (requires authentication).
+## User Routes
 
-#### Doctor Routes
-- **POST /api/doctor/login**: Login a doctor.
-- **POST /api/doctor/cancel-appointment**: Cancel an appointment (requires authentication).
-- **GET /api/doctor/appointments**: Get doctor appointments (requires authentication).
-- **GET /api/doctor/list**: Get list of all doctors.
-- **POST /api/doctor/change-availability**: Change doctor availability (requires authentication).
-- **POST /api/doctor/complete-appointment**: Mark an appointment as completed (requires authentication).
-- **GET /api/doctor/dashboard**: Get doctor dashboard data (requires authentication).
-- **GET /api/doctor/profile**: Get doctor profile data (requires authentication).
-- **POST /api/doctor/update-profile**: Update doctor profile data (requires authentication).
+| **Method** | **Endpoint**                      | **Description**                                     | **Requires Authentication** |
+|------------|------------------------------------|---------------------------------------------------|-----------------------------|
+| POST       | `/api/user/register`              | Register a new user.                              | No                          |
+| POST       | `/api/user/login`                 | Login a user.                                     | No                          |
+| GET        | `/api/user/get-profile`           | Get user profile data.                            | Yes                         |
+| POST       | `/api/user/update-profile`        | Update user profile data.                         | Yes                         |
+| POST       | `/api/user/book-appointment`      | Book an appointment.                              | Yes                         |
+| GET        | `/api/user/appointments`          | Get user appointments.                            | Yes                         |
+| POST       | `/api/user/cancel-appointment`    | Cancel an appointment.                            | Yes                         |
+| POST       | `/api/user/payment-razorpay`      | Make payment for an appointment using Razorpay.   | Yes                         |
+| POST       | `/api/user/verifyRazorpay`        | Verify Razorpay payment.                          | Yes                         |
+| POST       | `/api/user/payment-stripe`        | Make payment for an appointment using Stripe.     | Yes                         |
+| POST       | `/api/user/verifyStripe`          | Verify Stripe payment.                            | Yes                         |
 
-#### Admin Routes
-- **POST /api/admin/login**: Login an admin.
-- **POST /api/admin/add-doctor**: Add a new doctor (requires authentication).
-- **GET /api/admin/appointments**: Get all appointments (requires authentication).
-- **POST /api/admin/cancel-appointment**: Cancel an appointment (requires authentication).
-- **GET /api/admin/all-doctors**: Get list of all doctors (requires authentication).
-- **POST /api/admin/change-availability**: Change doctor availability (requires authentication).
-- **GET /api/admin/dashboard**: Get admin dashboard data (requires authentication).
+## Doctor Routes
+
+| **Method** | **Endpoint**                      | **Description**                                     | **Requires Authentication** |
+|------------|------------------------------------|---------------------------------------------------|-----------------------------|
+| POST       | `/api/doctor/login`               | Login a doctor.                                   | No                          |
+| POST       | `/api/doctor/cancel-appointment`  | Cancel an appointment.                            | Yes                         |
+| GET        | `/api/doctor/appointments`        | Get doctor appointments.                          | Yes                         |
+| GET        | `/api/doctor/list`                | Get list of all doctors.                          | No                          |
+| POST       | `/api/doctor/change-availability` | Change doctor availability.                       | Yes                         |
+| POST       | `/api/doctor/complete-appointment`| Mark an appointment as completed.                | Yes                         |
+| GET        | `/api/doctor/dashboard`           | Get doctor dashboard data.                        | Yes                         |
+| GET        | `/api/doctor/profile`             | Get doctor profile data.                          | Yes                         |
+| POST       | `/api/doctor/update-profile`      | Update doctor profile data.                       | Yes                         |
+
+## Admin Routes
+
+| **Method** | **Endpoint**                      | **Description**                                     | **Requires Authentication** |
+|------------|------------------------------------|---------------------------------------------------|-----------------------------|
+| POST       | `/api/admin/login`                | Login an admin.                                   | No                          |
+| POST       | `/api/admin/add-doctor`           | Add a new doctor.                                 | Yes                         |
+| GET        | `/api/admin/appointments`         | Get all appointments.                             | Yes                         |
+| POST       | `/api/admin/cancel-appointment`   | Cancel an appointment.                            | Yes                         |
+| GET        | `/api/admin/all-doctors`          | Get list of all doctors.                          | Yes                         |
+| POST       | `/api/admin/change-availability`  | Change doctor availability.                       | Yes                         |
+| GET        | `/api/admin/dashboard`            | Get admin dashboard data.                         | Yes                         |
+
   
 ### Deployment
-- the services are deployed on render :
-  **backend** - https://doctor-appointment-booking-app-backend-1wxp.onrender.com
-
-  **frontend** - https://doctor-appointment-booking-app-frontend-n8gi.onrender.com
-
-  **admin** - https://doctor-appointment-booking-app-admin.onrender.com
-
+- the services are deployed on render using free pack so might be slow in use....
+- thank you for visiting
 
 
 
