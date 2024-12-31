@@ -54,23 +54,23 @@
 
 <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px; background-color: gray;">
 
-  <img src="screenshots/ss-1.jpg" alt="mobile view 1" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-1.jpg" alt="mobile view 1"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-2.jpg" alt="mobile view 2" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-2.jpg" alt="mobile view 2"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-3.jpg" alt="mobile view 3" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-3.jpg" alt="mobile view 3"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-4.jpg" alt="mobile view 4" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-4.jpg" alt="mobile view 4"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-5.jpg" alt="mobile view 5" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-5.jpg" alt="mobile view 5"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-6.jpg" alt="mobile view 6" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-6.jpg" alt="mobile view 6"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-7.jpg" alt="mobile view 7" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-7.jpg" alt="mobile view 7"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-8.jpg" alt="mobile view 8" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-8.jpg" alt="mobile view 8"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-9.jpg" alt="mobile view 9" width="300" height="400px" style="border-radius: 8px;">
+  <img src="screenshots/ss-9.jpg" alt="mobile view 9"  style="border-radius: 8px;">
 
 </div>
 
