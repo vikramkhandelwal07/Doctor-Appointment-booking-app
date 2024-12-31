@@ -15,33 +15,29 @@
 
 
 ### Images or Demo
-video explaination will be there soon
-## Images or Demo
 
-### Images or Demo
-
-#### Web View
+#### mobile view
 
 <div style="display: flex; overflow-x: auto; background-color: black ">
 
-  <img src="screenshots/ss-1.jpg" alt="Web View 1" width="300" style="margin-right: 30px; border: black">
+  <img src="screenshots/ss-1.jpg" alt="Web View 1" width="350" style="margin-right: 30px; border: black">
 
-  <img src="screenshots/ss-2.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-2.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
 
-  <img src="screenshots/ss-3.jpg" alt="Web View 1" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-3.jpg" alt="Web View 1" width="350" style="margin-right: 30px;">
 
-  <img src="screenshots/ss-4.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-4.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
 
-  <img src="screenshots/ss-5.jpg" alt="Web View 1" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-5.jpg" alt="Web View 1" width="350" style="margin-right: 30px;">
 
-  <img src="screenshots/ss-6.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-6.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
 
-  <img src="screenshots/ss-7.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-7.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
 
-  <img src="screenshots/ss-8.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
+  <img src="screenshots/ss-8.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
 
-  <img src="screenshots/ss-9.jpg" alt="Web View 2" width="300" style="margin-right: 30px;">
-  
+  <img src="screenshots/ss-9.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
+
 </div>
 
 ## Table of Contents
@@ -50,9 +46,7 @@ video explaination will be there soon
   - [Description](#description)
   - [PS: The backend was deployed using Render, so there is more than an expected delay. Apologies for the inconvenience!](#ps-the-backend-was-deployed-using-render-so-there-is-more-than-an-expected-delay-apologies-for-the-inconvenience)
     - [Images or Demo](#images-or-demo)
-  - [Images or Demo](#images-or-demo-1)
-    - [Images or Demo](#images-or-demo-2)
-      - [Web View](#web-view)
+      - [mobile view](#mobile-view)
   - [Table of Contents](#table-of-contents)
     - [Tech Stack](#tech-stack)
       - [Frontend](#frontend)
