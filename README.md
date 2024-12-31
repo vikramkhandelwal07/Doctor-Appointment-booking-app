@@ -63,8 +63,6 @@
 
   <img src="screenshots/ss-4.jpg" alt="mobile view 4" width="300"  style="border-radius: 8px;">
 
-  <img src="screenshots/ss-5.jpg" alt="mobile view 5" width="300"  style="border-radius: 8px;">
-
   <img src="screenshots/ss-6.jpg" alt="mobile view 6" width="300"  style="border-radius: 8px;">
 
   <img src="screenshots/ss-7.jpg" alt="mobile view 7" width="300"  style="border-radius: 8px;">
