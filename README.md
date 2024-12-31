@@ -15,30 +15,65 @@
 
 
 ### Images or Demo
+#### Desktop view
+
+<div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px; background-color: gray;">
+
+  <img src="screenshots/ws-1.png" alt="web view 1"  style="border-radius: 8px;">
+
+  <img src="screenshots/ws-2.png" alt="web view 2" style="border-radius: 8px;">
+
+  <img src="screenshots/ws-3.png" alt="web view 3"  style="border-radius: 8px;">
+
+  <img src="screenshots/ws-4.png" alt="web view 4"  style="border-radius: 8px;">
+
+  <img src="screenshots/ws-5.png" alt="web view 5"  style="border-radius: 8px;">
+
+  <img src="screenshots/ws-6.png" alt="web view 6"  style="border-radius: 8px;">
+
+  <img src="screenshots/ws-7.png" alt="web view 7"  style="border-radius: 8px;">
+
+  <img src="screenshots/ws-8.png" alt="web view 8"  style="border-radius: 8px;">
+
+  <img src="screenshots/ws-9.png" alt="web view 9"  style="border-radius: 8px;">
+
+  <img src="screenshots/ws-10.png" alt="web view 10"  style="border-radius: 8px;">
+  
+  <img src="screenshots/ws-11.png" alt="web view 11"  style="border-radius: 8px;">
+  
+  <img src="screenshots/ws-12.png" alt="web view 12"  style="border-radius: 8px;">
+  
+  <img src="screenshots/ws-13.png" alt="web view 13"  style="border-radius: 8px;">
+  
+  <img src="screenshots/ws-14.png" alt="web view 14"  style="border-radius: 8px;">
+
+</div>
+
 
 #### mobile view
 
-<div style="display: flex; overflow-x: auto; background-color: black ">
+<div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px; background-color: gray;">
 
-  <img src="screenshots/ss-1.jpg" alt="Web View 1" width="350" style="margin-right: 30px; border: black">
+  <img src="screenshots/ss-1.jpg" alt="mobile view 1" width="300" height="400px" style="border-radius: 8px;">
 
-  <img src="screenshots/ss-2.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
+  <img src="screenshots/ss-2.jpg" alt="mobile view 2" width="300" height="400px" style="border-radius: 8px;">
 
-  <img src="screenshots/ss-3.jpg" alt="Web View 1" width="350" style="margin-right: 60px;">
+  <img src="screenshots/ss-3.jpg" alt="mobile view 3" width="300" height="400px" style="border-radius: 8px;">
 
-  <img src="screenshots/ss-4.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
+  <img src="screenshots/ss-4.jpg" alt="mobile view 4" width="300" height="400px" style="border-radius: 8px;">
 
-  <img src="screenshots/ss-5.jpg" alt="Web View 1" width="350" style="margin-right: 60px;">
+  <img src="screenshots/ss-5.jpg" alt="mobile view 5" width="300" height="400px" style="border-radius: 8px;">
 
-  <img src="screenshots/ss-6.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
+  <img src="screenshots/ss-6.jpg" alt="mobile view 6" width="300" height="400px" style="border-radius: 8px;">
 
-  <img src="screenshots/ss-7.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
+  <img src="screenshots/ss-7.jpg" alt="mobile view 7" width="300" height="400px" style="border-radius: 8px;">
 
-  <img src="screenshots/ss-8.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
+  <img src="screenshots/ss-8.jpg" alt="mobile view 8" width="300" height="400px" style="border-radius: 8px;">
 
-  <img src="screenshots/ss-9.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
+  <img src="screenshots/ss-9.jpg" alt="mobile view 9" width="300" height="400px" style="border-radius: 8px;">
 
 </div>
+
 
 ## Table of Contents
 
@@ -46,6 +81,7 @@
   - [Description](#description)
   - [PS: The backend was deployed using Render, so there is more than an expected delay. Apologies for the inconvenience!](#ps-the-backend-was-deployed-using-render-so-there-is-more-than-an-expected-delay-apologies-for-the-inconvenience)
     - [Images or Demo](#images-or-demo)
+      - [Desktop view](#desktop-view)
       - [mobile view](#mobile-view)
   - [Table of Contents](#table-of-contents)
     - [Tech Stack](#tech-stack)
