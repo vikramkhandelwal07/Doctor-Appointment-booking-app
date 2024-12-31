@@ -24,19 +24,19 @@
 
   <img src="screenshots/ss-2.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
 
-  <img src="screenshots/ss-3.jpg" alt="Web View 1" width="350" style="margin-right: 30px;">
+  <img src="screenshots/ss-3.jpg" alt="Web View 1" width="350" style="margin-right: 60px;">
 
-  <img src="screenshots/ss-4.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
+  <img src="screenshots/ss-4.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
 
-  <img src="screenshots/ss-5.jpg" alt="Web View 1" width="350" style="margin-right: 30px;">
+  <img src="screenshots/ss-5.jpg" alt="Web View 1" width="350" style="margin-right: 60px;">
 
-  <img src="screenshots/ss-6.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
+  <img src="screenshots/ss-6.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
 
-  <img src="screenshots/ss-7.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
+  <img src="screenshots/ss-7.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
 
-  <img src="screenshots/ss-8.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
+  <img src="screenshots/ss-8.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
 
-  <img src="screenshots/ss-9.jpg" alt="Web View 2" width="350" style="margin-right: 30px;">
+  <img src="screenshots/ss-9.jpg" alt="Web View 2" width="350" style="margin-right: 60px;">
 
 </div>
 
