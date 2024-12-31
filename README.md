@@ -1,8 +1,17 @@
-# Prescripto - Doctor Appointment-Booking-System
+Doctor Appointment-Booking-System
 
 ## Description
 
 **Prescripto** is a comprehensive Hospital Management System built on the MERN stack to enhance hospital operations. This system includes features such as secure user authentication, efficient appointment scheduling, patient record management, and real-time communication between doctors and patients. It provides a scalable and user-friendly platform to streamline healthcare workflows and improve the hospital experience.
+
+## PS: The backend was deployed using Render, so there is more than an expected delay. Apologies for the inconvenience!
+**Live Link**
+
+  **backend** - https://doctor-appointment-booking-app-backend-1wxp.onrender.com
+  
+  **frontend** - https://doctor-appointment-booking-app-frontend-n8gi.onrender.com
+  
+  **admin** - https://doctor-appointment-booking-app-admin.onrender.com
 
 ## Table of Contents
 
@@ -31,7 +40,9 @@
 ---
 
 ### Images or Demo
-This is the images or demo section.
+video explaination will be there soon
+
+
 
 ### Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=js,react,nodejs,express,vercel,mongodb,tailwind,html,css)](https://skillicons.dev)
@@ -188,13 +199,8 @@ Access the frontend application at `http://localhost:5173`
 - **GET /api/admin/dashboard**: Get admin dashboard data (requires authentication).
   
 ### Deployment
-- the services are deployed on render :
-  **backend** - https://doctor-appointment-booking-app-backend-1wxp.onrender.com
-
-  **frontend** - https://doctor-appointment-booking-app-frontend-n8gi.onrender.com
-
-  **admin** - https://doctor-appointment-booking-app-admin.onrender.com
-
+- the services are deployed on render using free pack so might be slow in use....
+- 
 
 
 
